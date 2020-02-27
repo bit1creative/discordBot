@@ -1,7 +1,7 @@
 var User = require('../models/user');
 var mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://bit1creative:johnny2001@cluster0-wythh.mongodb.net/test", { useNewUrlParser: true }, function(err){
+mongoose.connect("Link to my online mongoDB cluster used to be here", { useNewUrlParser: true }, function(err){
     if(err) return console.log(err);
     console.log('connected');
     });
